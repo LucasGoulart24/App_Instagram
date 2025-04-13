@@ -10,10 +10,24 @@ class App extends Component {
       feed: [
         {
           id: '1',
-          titulo: 'Julia Oliveira',
+          titulo: 'Bruna Carvalho',
           fotoPerfil: 'https://img.freepik.com/fotos-gratis/retrato-de-uma-jovem-mulher-bonita-com-vestido-vermelho_23-2149553603.jpg',
           imagem: 'https://blog4.mfrural.com.br/wp-content/uploads/2022/07/rosas-caracteristicas.jpg',
-          nome: 'Julia Oliveira'
+          nome: 'Bruna Carvalho'
+        },
+        {
+          id: '2',
+          titulo: 'Daniel Sampaio',
+          fotoPerfil: 'https://www.undb.edu.br/hubfs/programador2.jpg',
+          imagem: 'https://cursoprofi.com.br/wp-content/uploads/2024/04/20160510115025610.jpg',
+          nome: 'Daniel Sampaio'
+        },
+        {
+          id: '3',
+          titulo: 'Carolina Mendonça',
+          fotoPerfil: 'https://img.freepik.com/fotos-gratis/mulher-de-tiro-medio-trabalhando-como-medica_23-2150379198.jpg',
+          imagem: 'https://cdn.prod.website-files.com/662966ec5822f0e07e040c6c/66314c5da26268728e2f7aa9_medicina.jpg',
+          nome: 'Carolina Mendonça'
         },
       ]
     }
@@ -30,10 +44,10 @@ class App extends Component {
         </View>
         <View style={styles.banner2}>
           <Image source={require('./Img/imagem.jpg')} style={styles.foto}/>
-          <Image source={require('./Img/imagem.jpg')} style={styles.foto}/>
-          <Image source={require('./Img/imagem.jpg')} style={styles.foto}/>
-          <Image source={require('./Img/imagem.jpg')} style={styles.foto}/>
-          <Image source={require('./Img/imagem.jpg')} style={styles.foto}/>
+          <Image source={require('./Img/imagem2.jpg')} style={styles.foto}/>
+          <Image source={require('./Img/imagem3.jpg')} style={styles.foto}/>
+          <Image source={require('./Img/imagem4.jpg')} style={styles.foto}/>
+          <Image source={require('./Img/imagem5.jpg')} style={styles.foto}/>
         </View>
         <FlatList 
         showsVerticalScrollIndicator={true}
