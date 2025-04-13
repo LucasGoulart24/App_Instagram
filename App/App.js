@@ -9,8 +9,12 @@ class App extends Component {
     this.state = {
       feed: [
         {
-          id: '1'
-        }
+          id: '1',
+          titulo: 'Julia Oliveira',
+          fotoPerfil: 'https://img.freepik.com/fotos-gratis/retrato-de-uma-jovem-mulher-bonita-com-vestido-vermelho_23-2149553603.jpg',
+          imagem: 'https://blog4.mfrural.com.br/wp-content/uploads/2022/07/rosas-caracteristicas.jpg',
+          nome: 'Julia Oliveira'
+        },
       ]
     }
   }
@@ -20,8 +24,8 @@ class App extends Component {
         <View style={styles.banner}>
           <Text style={styles.titulo}>Instagram</Text>
           <View style={{ alignItems: 'center', flexDirection: 'row', gap: 10 }}>
-            <Icones name='heart' size={25}/>
-            <Icones name='message-square' size={25}/>
+            <Icones name='heart' size={30}/>
+            <Icones name='message-square' size={30}/>
           </View>
         </View>
         <View style={styles.banner2}>
@@ -48,6 +52,7 @@ const styles = StyleSheet.create({
   },
   banner: {
     width: '100%',
+    height: 100,
     alignItems: 'center',
     justifyContent: 'space-between',
     flexDirection: 'row',
