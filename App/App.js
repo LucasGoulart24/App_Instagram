@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import { StyleSheet, Text, View, Image, FlatList } from 'react-native';
 import Icones from '@expo/vector-icons/Feather';
 import Postagem from './src/Postagem';
